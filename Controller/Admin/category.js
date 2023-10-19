@@ -13,7 +13,7 @@ const postCategory =  (req, res) => {
             console.log("error in posting the category", err)
         }
         else{
-            console.log("successfully category posted")
+            console.log("successfully category")
         }
     })
 
