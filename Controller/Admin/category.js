@@ -10,7 +10,7 @@ const postCategory =  (req, res) => {
     };
     connection.query(sqlQuery, categoryData, (err, result) => {
         if(err){
-            console.log("error in posting the category", err)
+            console.log("error in posting category", err)
         }
         else{
             console.log("successfully category")
