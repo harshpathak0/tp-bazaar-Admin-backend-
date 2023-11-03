@@ -6,7 +6,7 @@ let bucketName = "";
 
 const s3 = new S3Client({
 
-    region:"ap-south-1",
+    region:"",
     credentials:{
         accessKeyId:"",
         secretAccessKey:""
